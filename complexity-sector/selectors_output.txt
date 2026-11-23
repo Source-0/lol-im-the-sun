@@ -1,0 +1,33 @@
+== soundness: neither lift ever refutes a satisfiable instance ==
+false refutations on 12 satisfiable instances at levels d=5, k=5: 0
+
+== minimal level that refutes an unsatisfiable instance (median [min..max]) ==
+family       n  C1 affine degree d       C2 consistency level k  
+3-SAT        6  4 [4..4]                 3 [3..3]                
+3-SAT        8  4 [4..5]                 3 [3..3]                
+3-SAT       10  5 [4..5]                 4 [3..4]                
+3-SAT       12  5 [5..5]                 3 [3..4]                
+3-SAT       14  5 [5..6]                 3 [3..4]                
+parity       6  3 [3..3]                 3 [3..4]                
+parity       8  3 [3..3]                 3 [3..4]                
+parity      10  3 [3..3]                 4 [3..4]                
+parity      12  3 [3..3]                 4 [4..4]                
+parity      14  3 [3..3]                 4 [4..4]                
+Horn         6  3 [2..3]                 3 [2..3]                
+Horn         8  3 [2..3]                 3 [2..3]                
+Horn        10  3 [3..4]                 3 [3..3]                
+Horn        12  2 [2..4]                 2 [2..3]                
+Horn        14  2 [2..3]                 2 [2..3]                
+2-CNF        6  3 [2..3]                 2 [2..3]                
+2-CNF        8  3 [2..3]                 2 [2..2]                
+2-CNF       10  3 [3..3]                 2 [2..2]                
+2-CNF       12  3 [3..4]                 2 [2..2]                
+2-CNF       14  3 [3..3]                 2 [2..3]                
+
+== C3: shortest linear anneal with success probability >= 1/2 (one-solution 3-SAT, ratio 4.5) ==
+  n instances  T_half median [min..max]     Sigma_F at T_half (median)
+  6         5        64 [32..64]                                2.759
+  8         5       128 [64..8192]                                2.403
+ 10         5       128 [128..1024]                                5.028
+ 12         5       512 [512..8192]                                4.213
+ 14         3      1024 [512..4096]                                5.403
